@@ -1,0 +1,110 @@
+{
+   "appName": {
+      "message": "yuexuan-rpctool"
+   },
+   "description": {
+      "message": "A powerful browser extension designed as a Web frontend management assistant for DM download tools. It provides multiple convenient ways to send network resources to DM for download management."
+   },
+   "updated": {
+      "message": "Updated"
+   },
+   "updatedDesc": {
+      "message": "yuexuan-rpctool updated to $version$ version",
+      "placeholders": {
+         "version": {
+            "content": "$1",
+            "example": "1.0.0"
+         }
+      }
+   },
+   "startDownload": {
+      "message": "Start Download"
+   },
+   "downloadSuccess": {
+      "message": "Successfully sent to Aria2!"
+   },
+   "downloadFailed": {
+      "message": "Download Failed"
+   },
+   "downloadFailedDesc": {
+      "message": "Failed to send to Aria2"
+   },
+   "title": {
+      "message": "yuexuan-rpctool Settings"
+   },
+   "contextMenu": {
+      "message": "Context Menu"
+   },
+   "contextMenuDesc": {
+      "message": "Enable right-click menu to send links"
+   },
+   "autoRename": {
+      "message": "Auto Rename"
+   },
+   "autoRenameDesc": {
+      "message": "Advanced feature, please keep default value"
+   },
+   "syncConfig": {
+      "message": "Config Sync"
+   },
+   "syncConfigDesc": {
+      "message": "Sync config to cloud"
+   },
+   "interception": {
+      "message": "Download Interception"
+   },
+   "interceptionDesc": {
+      "message": "Intercept downloads and send to Aria2"
+   },
+   "contentDetection": {
+      "message": "Content Detection"
+   },
+   "contentDetectionDesc": {
+      "message": "Detect all videos and audio on any website and show download panel"
+   },
+   "webRequestDetection": {
+      "message": "Network Request Detection"
+   },
+   "webRequestDetectionDesc": {
+      "message": "Monitor all network requests to detect video/audio streams (mp4, m3u8, mpd, etc.) from any website"
+   },
+   "fileSizeStr": {
+      "message": "File Size"
+   },
+   "fileSizeHint": {
+      "message": "Minimum file size to trigger interception (enter 0 to intercept all downloads)"
+   },
+   "unit": {
+      "message": "Unit"
+   },
+   "downloadPathStr": {
+      "message": "Download Path"
+   },
+   "downloadPathDesc": {
+      "message": "Must be an absolute path"
+   },
+   "addRPC": {
+      "message": "Add RPC"
+   },
+   "removeRPC": {
+      "message": "Remove RPC"
+   },
+   "whitelistStr": {
+      "message": "Whitelist"
+   },
+   "blocklistStr": {
+      "message": "Blacklist"
+   },
+   "save": {
+      "message": "Save"
+   },
+   "saveSuccess": {
+      "message": "Settings saved successfully"
+   },
+   "reset": {
+      "message": "Reset"
+   },
+   "resetConfirm": {
+      "message": "Are you sure you want to reset?"
+   }
+}
