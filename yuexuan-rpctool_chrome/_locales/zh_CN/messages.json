@@ -1,0 +1,110 @@
+{
+   "appName": {
+      "message": "月晅-RPCtool"
+   },
+   "description": {
+      "message": "一款功能强大的浏览器扩展，专为DM类下载工具打造的 Web 前端管理助手。它提供了多种便捷方式将网络资源发送到DM进行下载管理。"
+   },
+   "updated": {
+      "message": "更新"
+   },
+   "updatedDesc": {
+      "message": "月晅-RPCtool更新到 $version$ 版本啦～",
+      "placeholders": {
+         "version": {
+            "content": "$1",
+            "example": "1.0.0"
+         }
+      }
+   },
+   "startDownload": {
+      "message": "开始下载"
+   },
+   "downloadSuccess": {
+      "message": "已成功发送到Aria2!"
+   },
+   "downloadFailed": {
+      "message": "下载失败"
+   },
+   "downloadFailedDesc": {
+      "message": "发送到Aria2失败!"
+   },
+   "title": {
+      "message": "月晅-RPCtool 设置"
+   },
+   "contextMenu": {
+      "message": "右键菜单"
+   },
+   "contextMenuDesc": {
+      "message": "启用右键菜单发送链接"
+   },
+   "autoRename": {
+      "message": "自动文件重命名"
+   },
+   "autoRenameDesc": {
+      "message": "高级功能，请保持默认值"
+   },
+   "syncConfig": {
+      "message": "配置同步"
+   },
+   "syncConfigDesc": {
+      "message": "多设备自动云同步"
+   },
+   "interception": {
+      "message": "下载拦截"
+   },
+   "interceptionDesc": {
+      "message": "文件下载会被导入到Aria2"
+   },
+   "contentDetection": {
+      "message": "内容检测"
+   },
+   "contentDetectionDesc": {
+      "message": "检测所有网站视频并显示下载面板"
+   },
+   "webRequestDetection": {
+      "message": "网络请求检测"
+   },
+   "webRequestDetectionDesc": {
+      "message": "监控所有网络请求以检测视频/音频流（mp4、m3u8、mpd等）"
+   },
+   "fileSizeStr": {
+      "message": "文件大小"
+   },
+   "fileSizeHint": {
+      "message": "触发拦截的最小文件大小（输入0拦截所有下载）"
+   },
+   "unit": {
+      "message": "单位"
+   },
+   "downloadPathStr": {
+      "message": "下载路径"
+   },
+   "downloadPathDesc": {
+      "message": "只能设置为绝对路径"
+   },
+   "addRPC": {
+      "message": "添加RPC"
+   },
+   "removeRPC": {
+      "message": "删除RPC"
+   },
+   "whitelistStr": {
+      "message": "网站白名单"
+   },
+   "blocklistStr": {
+      "message": "网站黑名单"
+   },
+   "save": {
+      "message": "保存"
+   },
+   "saveSuccess": {
+      "message": "更新配置成功"
+   },
+   "reset": {
+      "message": "重置"
+   },
+   "resetConfirm": {
+      "message": "真的要重置么？"
+   }
+}

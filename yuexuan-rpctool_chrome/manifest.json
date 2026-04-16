@@ -1,0 +1,48 @@
+{
+  "manifest_version": 3,
+  "default_locale": "zh_CN",
+  "description": "__MSG_description__",
+  "icons": {
+    "32": "images/logo32.png",
+    "64": "images/logo64.png",
+    "128": "images/logo128.png"
+  },
+  "action": {
+    "default_icon": {
+      "32": "images/logo32.png"
+    }
+  },
+  "options_page": "options.html",
+  "permissions": [
+    "cookies",
+    "notifications",
+    "tabs",
+    "contextMenus",
+    "downloads",
+    "storage",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["video-detector.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "name": "__MSG_appName__",
+  "version": "2.0.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["images/*.png", "images/*.jpg"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
